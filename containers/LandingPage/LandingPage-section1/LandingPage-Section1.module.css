@@ -1,0 +1,84 @@
+#LandingPage-Section1 {
+    padding: 0px 60px;
+    padding-top: 20px;
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LandingPage-Section1-Container {
+    width: 100%;
+}
+
+.LandingPage-Section1-Column-Left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LandingPage-Section1-Column-Left-Container {
+    width: 100%;
+    max-width: 403px;
+}
+
+.LandingPage-Section1-Text1 {
+    font-family: "Cormorant Upright";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.065em;
+    text-transform: capitalize;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #ffffff;
+    margin-bottom: unset;
+}
+
+.LandingPage-Section1-Text2 {
+    font-family: "Cormorant Upright";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #dcca87;
+    line-height: 90px;
+    margin-top: 12px;
+    margin-bottom: unset;
+}
+
+.LandingPage-Section1-Text3 {
+    font-family: "Open Sans", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #aaaaaa;
+    margin-top: 32px;
+    margin-bottom: unset;
+}
+
+.LandingPage-Section1-Button {
+    width: 157px;
+    height: 44px;
+    background: #dcca87;
+    border-radius: 10px;
+    font-family: "Cormorant Upright", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: #0c0b08;
+    transition: all 0.4s ease-in-out;
+    margin-top: 32px;
+    margin-bottom: unset;
+}
+
+.LandingPage-Section1-Button:hover {
+    border: 1px solid #dcca87;
+    color: #dcca87;
+    background-color: transparent;
+}
