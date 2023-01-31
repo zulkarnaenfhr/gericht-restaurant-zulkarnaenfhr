@@ -1,0 +1,62 @@
+#NavbarGericht {
+    width: 100vw;
+    min-height: 80px;
+}
+
+.NavbarGericht-Container {
+    color: white !important;
+    background-color: black;
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+}
+
+.NavbarGericht-Brand {
+    color: white !important;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.NavbarGericht-Link {
+    color: white !important;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+.NavbarGericht-Row {
+    width: 100%;
+}
+
+.NavbarGericht-Column {
+    display: flex;
+    align-items: center;
+}
+
+.NavbarGericht-ColumnCenter {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 109px;
+}
+
+.NavbarGericht-LinkCenter {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white !important;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
