@@ -23,13 +23,20 @@
 }
 
 .NavbarGericht-Link {
-    color: white !important;
+    color: white;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 0.05em;
     text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    z-index: 2;
+}
+
+.NavbarGericht-Link:hover {
+    color: rgb(136, 130, 130) !important;
 }
 
 .NavbarGericht-Row {
@@ -59,4 +66,9 @@
     font-size: 14px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+}
+
+.NavbarGericht-LinkCenter:hover {
+    color: rgb(136, 130, 130) !important;
 }

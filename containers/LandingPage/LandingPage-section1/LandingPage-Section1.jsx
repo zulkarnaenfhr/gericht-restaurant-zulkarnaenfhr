@@ -8,7 +8,7 @@ const LandingPageSection1 = () => {
         <div id={styles["LandingPage-Section1"]}>
             <div className={styles["LandingPage-Section1-Container"]}>
                 <Row>
-                    <Col className={styles["LandingPage-Section1-Column-Left"]}>
+                    <Col className={styles["LandingPage-Section1-Column"]}>
                         <div className={styles["LandingPage-Section1-Column-Left-Container"]}>
                             <p className={styles["LandingPage-Section1-Text1"]}>Chase the new Flavour</p>
 
@@ -27,8 +27,35 @@ const LandingPageSection1 = () => {
                             <button className={styles["LandingPage-Section1-Button"]}>Expolre Menu</button>
                         </div>
                     </Col>
-                    <Col>
-                        <h1>kanan</h1>
+                    <Col className={styles["LandingPage-Section1-Column"]}>
+                        <div className={styles["LandingPage-Section1-Column-Right-Container"]}>
+                            <div
+                                style={{
+                                    width: "100%",
+                                    height: "100%",
+                                }}
+                            >
+                                <div>
+                                    <div className={styles["LandingPage-Section1-Column-Right-Box1"]}></div>
+                                    <div className={styles["LandingPage-Section1-Column-Right-Box2"]}></div>
+                                </div>
+                                <div
+                                    style={{
+                                        height: "100%",
+                                        width: "100%",
+                                        display: "flex",
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                        zIndex: "3",
+                                        position: "relative",
+                                    }}
+                                >
+                                    <div className={styles["LandingPage-Section1-Column-Pictures-Container"]}>
+                                        <Image className={styles["LandingPage-Section1-Column-Pictures"]} src={require("../../../public/images/Section1.png")} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
             </div>
