@@ -11,7 +11,7 @@ const LandingPageSection2 = () => {
                     style={{
                         width: "100%",
                         height: "100%",
-                        background: "linear-gradient(to bottom, black 0%, transparent 100%)",
+                        background: "linear-gradient(to bottom, #0c0b08 0%, transparent 100%)",
                         opacity: "0.7",
                         position: "absolute",
                     }}

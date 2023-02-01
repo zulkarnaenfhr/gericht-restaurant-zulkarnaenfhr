@@ -22,7 +22,7 @@
 
 .LandingPage-Section2-Container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     position: relative;
     z-index: 3;
     height: 80vh;
@@ -35,7 +35,7 @@
 }
 
 .LandingPage-Section2-Left-Text1 {
-    font-family: "Cormorant Upright";
+    font-family: "Cormorant Upright", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 55px;
@@ -53,7 +53,7 @@
 }
 
 .LandingPage-Section2-Left-Text2 {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -67,7 +67,7 @@
     width: 141px;
     height: 44px;
     background: #dcca87;
-    font-family: "Cormorant Upright";
+    font-family: "Cormorant Upright", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -111,7 +111,7 @@
 }
 
 .LandingPage-Section2-Right-Text1 {
-    font-family: "Cormorant Upright";
+    font-family: "Cormorant Upright", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 55px;
@@ -122,7 +122,7 @@
 }
 
 .LandingPage-Section2-Right-Text2 {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -135,7 +135,7 @@
     width: 141px;
     height: 44px;
     background: #dcca87;
-    font-family: "Cormorant Upright";
+    font-family: "Cormorant Upright", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

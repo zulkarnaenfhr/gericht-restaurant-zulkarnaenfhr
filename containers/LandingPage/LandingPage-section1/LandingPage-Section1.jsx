@@ -38,17 +38,7 @@ const LandingPageSection1 = () => {
                                 <div className={styles["LandingPage-Section1-Column-Right-Box1"]}></div>
                                 <div className={styles["LandingPage-Section1-Column-Right-Box2"]}></div>
                             </div>
-                            <div
-                                style={{
-                                    height: "100%",
-                                    width: "100%",
-                                    display: "flex",
-                                    justifyContent: "center",
-                                    alignItems: "center",
-                                    zIndex: "3",
-                                    position: "relative",
-                                }}
-                            >
+                            <div className={styles["LandingPage-Section1-Column-Pictures-Container-Parents"]}>
                                 <div className={styles["LandingPage-Section1-Column-Pictures-Container"]}>
                                     <Image className={styles["LandingPage-Section1-Column-Pictures"]} src={require("../../../public/images/Section1.png")} />
                                 </div>
