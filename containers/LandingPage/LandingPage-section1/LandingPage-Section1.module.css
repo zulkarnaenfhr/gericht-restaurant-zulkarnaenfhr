@@ -11,12 +11,20 @@
 
 .LandingPage-Section1-Container {
     width: 100%;
+    max-width: 1300px;
 }
 
-.LandingPage-Section1-Column {
+.LandingPage-Section1-Column-Left {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: center;
+}
+
+.LandingPage-Section1-Column-Right {
+    width: 100%;
+    display: flex;
+    justify-content: Right;
     align-items: center;
 }
 

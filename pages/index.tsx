@@ -1,6 +1,7 @@
 import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.css";
-import LandingPageSection1 from "../containers/LandingPage/LandingPage-section1/LandingPage-Section1";
+import LandingPageSection1 from "../containers/LandingPage/LandingPage-Section1/LandingPage-Section1";
+import LandingPageSection2 from "../containers/LandingPage/LandingPage-Section2/LandingPage-Section2";
 import NavbarGericht from "../components/NavbarGericht/NavbarGericht";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
                 </div>
                 <div className="Main-Section">
                     <LandingPageSection1 />
+                    <LandingPageSection2 />
                 </div>
             </main>
         </>
