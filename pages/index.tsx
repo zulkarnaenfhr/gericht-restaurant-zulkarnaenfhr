@@ -9,6 +9,7 @@ import LandingPageSection5 from "../containers/LandingPage/LandingPage-Section5/
 import LandingPageSection6 from "../containers/LandingPage/LandingPage-Section6/LandingPage-Section6";
 import LandingPageSection7 from "../containers/LandingPage/LandingPage-Section7/LandingPage-Section7";
 import LandingPageSection8 from "../containers/LandingPage/LandingPage-Section8/LandingPage-Section8";
+import FootersGericht from "../components/FootersGericht/FootersGericht";
 import NavbarGericht from "../components/NavbarGericht/NavbarGericht";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
                     <LandingPageSection6 />
                     <LandingPageSection7 />
                     <LandingPageSection8 />
+                    <FootersGericht />
                 </div>
             </main>
         </>
