@@ -44,7 +44,19 @@ const FootersGericht = () => {
                         </div>{" "}
                     </Col>
                 </Row>
-                <p className={styles["FooterGericht-FooterSigniature"]}>2021 Gerícht. All Rights reserved.</p>
+                <p className={styles["FooterGericht-FooterSigniature"]}>
+                    Design and Develop by{" "}
+                    <a className={styles["FooterGericht-LinkFahri"]} href="https://zulkarnaenfhr.github.io/">
+                        SpaceCapt-Tech
+                    </a>{" "}
+                    @Endemic 2023 Colaborate with{" "}
+                    <a
+                        className={styles["FooterGericht-LinkIconiq"]}
+                        href="https://iqonic.design/product/wordpress-themes/gericht-best-free-wordpress-theme-for-restaurant/?utm_source=referral&utm_medium=Figma-Community&utm_campaign=Geritch-WordPress-Figma-Community"
+                    >
+                        Iqonic.design
+                    </a>{" "}
+                </p>
             </div>
         </div>
     );
