@@ -1,6 +1,7 @@
 import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.css";
-import LandingPageSection1 from "../containers/LandingPage/LandingPage-Section1/LandingPage-Section1";
+// import LandingPageSection1 from "../containers/LandingPage/LandingPage-Section1/LandingPage-Section1";
+import LandingPageSection1 from "../containers/LandingPage/LandingPage-Section1_copy/LandingPage-Section1";
 import LandingPageSection2 from "../containers/LandingPage/LandingPage-Section2/LandingPage-Section2";
 import LandingPageSection3 from "../containers/LandingPage/LandingPage-Section3/LandingPage-Section3";
 import LandingPageSection4 from "../containers/LandingPage/LandingPage-Section4/LandingPage-Section4";
