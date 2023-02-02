@@ -1,0 +1,40 @@
+#LandingPage-Section6 {
+    width: 100%;
+    height: fit-content;
+    max-height: 723px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.LandingPage-Section6-Background-Container {
+    width: 100%;
+    height: 100%;
+}
+
+.LandingPage-Section6-Background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.LandingPage-Section6-Button-Container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LandingPage-Section6-Button-Container {
+    height: 120px;
+    width: 120px;
+}
+
+.LandingPage-Section6-Button {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
