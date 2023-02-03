@@ -14,7 +14,7 @@
     max-width: 1200px;
 }
 
-.LandingPage-Section5-Column-Left {
+.LandingPage-Section5-Column {
     display: flex;
     align-items: center;
 }
@@ -51,6 +51,7 @@
 .LandingPage-Section5-Column-Little {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 
 .LandingPage-Section5-Column-Little-Icon-Container {
@@ -87,10 +88,6 @@
     margin-bottom: unset;
     margin-top: 16px;
     width: 190px;
-}
-
-.LandingPage-Section5-Column-Little-Row {
-    margin-top: 50px;
 }
 
 .LandingPage-Section5-Image-Container {

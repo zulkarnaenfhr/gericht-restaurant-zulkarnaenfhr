@@ -8,7 +8,7 @@ const LandingPageSection5 = () => {
         <div id={styles["LandingPage-Section5"]}>
             <div className={styles["LandingPage-Section5-Container"]}>
                 <Row>
-                    <Col className={styles["LandingPage-Section5-Column-Left"]} md={7}>
+                    <Col className={styles["LandingPage-Section5-Column"]} md={6} lg={7}>
                         <div className={styles["LandingPage-Section5-Column-Left-Container"]}>
                             <p className={styles["LandingPage-Section5-text1"]}>Awards & recognition</p>
                             <Image
@@ -76,7 +76,7 @@ const LandingPageSection5 = () => {
                             </Row>
                         </div>
                     </Col>
-                    <Col md={5}>
+                    <Col className={styles["LandingPage-Section5-Column"]} md={6} lg={5}>
                         <div className={styles["LandingPage-Section5-Image-Container"]}>
                             <Image className={styles["LandingPage-Section5-Image"]} src={require("../../../public/images/Section5-Right.png")} />
                         </div>

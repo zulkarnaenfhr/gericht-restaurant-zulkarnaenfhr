@@ -18,9 +18,7 @@ const LandingPageSection1 = () => {
                             src={require("../../../src/icon/yellow-spoon.svg")}
                         />
 
-                        <p className={styles["LandingPage-Section1-Text2"]}>
-                            The key to <br /> Fine dining
-                        </p>
+                        <p className={styles["LandingPage-Section1-Text2"]}>The key to Fine dining</p>
 
                         <p className={styles["LandingPage-Section1-Text3"]}>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
                         <button className={styles["LandingPage-Section1-Button"]}>Expolre Menu</button>
