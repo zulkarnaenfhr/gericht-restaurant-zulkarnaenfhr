@@ -149,3 +149,54 @@
     border: 1px solid #dcca87;
     color: #dcca87;
 }
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    #LandingPage-Section2 {
+        min-height: unset;
+    }
+    .LandingPage-Section2-Column-Middle {
+        display: none;
+    }
+    .LandingPage-Section2-Column-Left {
+        justify-content: left;
+    }
+    .LandingPage-Section2-Left-Text1 {
+        text-align: left;
+    }
+    .LandingPage-Section2-Left-Container {
+        justify-content: left;
+    }
+    .LandingPage-Section2-Left-Text2 {
+        text-align: left;
+    }
+
+    .LandingPage-Section2-Column-Right {
+        justify-content: right;
+        margin-top: 80px;
+    }
+    .LandingPage-Section2-Right-Text1 {
+        text-align: right;
+    }
+    .LandingPage-Section2-Right-Container {
+        display: flex;
+        justify-content: right;
+    }
+    .LandingPage-Section2-Right-Text2 {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 400px) {
+}

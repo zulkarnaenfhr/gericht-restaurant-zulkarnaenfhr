@@ -49,14 +49,18 @@ const LandingPageSection2 = () => {
                 <Col md={5} className={styles["LandingPage-Section2-Column-Right"]}>
                     <div>
                         <p className={styles["LandingPage-Section2-Right-Text1"]}>Our History</p>
-                        <Image
-                            style={{
-                                marginTop: "8px",
-                            }}
-                            src={require("../../../src/icon/yellow-spoon.svg")}
-                        />
+                        <div className={styles["LandingPage-Section2-Right-Container"]}>
+                            <Image
+                                style={{
+                                    marginTop: "8px",
+                                }}
+                                src={require("../../../src/icon/yellow-spoon.svg")}
+                            />
+                        </div>
                         <p className={styles["LandingPage-Section2-Right-Text2"]}>Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet. </p>
-                        <button className={styles["LandingPage-Section2-Right-Button"]}>Know More</button>
+                        <div className={styles["LandingPage-Section2-Right-Container"]}>
+                            <button className={styles["LandingPage-Section2-Right-Button"]}>Know More</button>
+                        </div>
                     </div>{" "}
                 </Col>
             </Row>
