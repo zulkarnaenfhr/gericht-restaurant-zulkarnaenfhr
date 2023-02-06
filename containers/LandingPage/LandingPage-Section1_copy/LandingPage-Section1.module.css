@@ -91,6 +91,29 @@
     background-color: transparent;
 }
 
+.LandingPage-Section1-ButtonCopy {
+    width: 157px;
+    height: 44px;
+    background: #dcca87;
+    border-radius: 10px;
+    font-family: "Cormorant Upright", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: #0c0b08;
+    transition: all 0.4s ease-in-out;
+    margin-top: 32px;
+    margin-bottom: unset;
+    display: none;
+}
+
+.LandingPage-Section1-ButtonCopy:hover {
+    border: 1px solid #dcca87;
+    color: #dcca87;
+    background-color: transparent;
+}
+
 .LandingPage-Section1-Column-Pictures-Container-Parents {
     height: 100%;
     width: 100%;
@@ -139,4 +162,62 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    #LandingPage-Section1 {
+        padding-top: 30px;
+    }
+
+    .LandingPage-Section1-Text1 {
+        font-size: calc(0.9 * 23px);
+        line-height: calc(0.9 * 23px);
+    }
+
+    .LandingPage-Section1-Text2 {
+        font-size: calc(0.7 * 55px);
+        line-height: calc(0.7 * 55px);
+    }
+
+    .LandingPage-Section1-Text3 {
+        margin-top: 15px;
+    }
+
+    .LandingPage-Section1-Button {
+        display: none;
+    }
+
+    .LandingPage-Section1-Column-Right {
+        margin-top: 30px;
+    }
+
+    #LandingPage-Section1 {
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+        padding: 0px 40px;
+        padding-top: 20px;
+    }
+    .LandingPage-Section1-ButtonCopy {
+        display: unset;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #LandingPage-Section1 {
+        padding: 0px 30px;
+        padding-top: 20px;
+    }
 }

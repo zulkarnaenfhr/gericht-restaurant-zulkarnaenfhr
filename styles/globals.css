@@ -42,5 +42,28 @@ main {
 }
 
 .Navbar-Section {
-    position: absolute;
+    position: fixed;
+    z-index: 900;
+    top: 0;
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    .Main-Section {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
 }
