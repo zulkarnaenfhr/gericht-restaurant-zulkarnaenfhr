@@ -16,7 +16,7 @@ const FootersGericht = () => {
                             <p className={styles["FooterGericht-Desc"]}>+1 212-344-1230</p>
                         </div>
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className={styles['FooterGericht-Column']}>
                         <p className={styles["FooterGericht-Title1"]}>Gerícht</p>
                         <p className={styles["FooterGericht-Desc-Middle"]}>"The best way to find yourself is to lose yourself in the service of others.”</p>
                         <div
@@ -34,7 +34,7 @@ const FootersGericht = () => {
                             />
                         </div>
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className={styles['FooterGericht-Column']}>
                         <p className={styles["FooterGericht-Title2"]}>Working Hours</p>
                         <div className={styles["FooterGericht-Desc-Container"]}>
                             <p className={styles["FooterGericht-Desc"]}>Monday-Friday:</p>
@@ -44,7 +44,7 @@ const FootersGericht = () => {
                         </div>{" "}
                     </Col>
                 </Row>
-                <p className={styles["FooterGericht-FooterSigniature"]}>
+                <div className={styles["FooterGericht-FooterSigniature"]}>
                     Design and Develop by{" "}
                     <a className={styles["FooterGericht-LinkFahri"]} href="https://zulkarnaenfhr.github.io/">
                         SpaceCapt-Tech
@@ -56,7 +56,7 @@ const FootersGericht = () => {
                     >
                         Iqonic.design
                     </a>{" "}
-                </p>
+                </div>
             </div>
         </div>
     );
