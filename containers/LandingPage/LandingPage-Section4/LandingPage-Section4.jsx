@@ -34,7 +34,7 @@ const LandingPageSection4 = () => {
                             <div className={styles["LandingPage-Section1-Column-Pictures-Container-Parents"]}>
                                 <div className={styles["LandingPage-Section1-Column-Pictures-Container"]}>
                                     <Image className={styles["LandingPage-Section1-Column-Pictures"]} src={require("../../../public/images/Section4-Chef.png")} />
-                                </div>{" "}
+                                </div>
                             </div>
                         </div>
                     </div>

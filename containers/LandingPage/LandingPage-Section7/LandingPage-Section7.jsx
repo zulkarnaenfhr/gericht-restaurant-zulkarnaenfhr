@@ -17,7 +17,7 @@ const LandingPageSection7 = () => {
                     }}
                 ></div>
                 <Image className={styles["LandingPage-Section7-Background"]} src={require("../../../public/images/Section2-Background.png")} />
-            </div>{" "}
+            </div>
             <Row className={styles["LandingPage-Section7-Container"]}>
                 <Col md={6} className={styles["LandingPage-Section7-Column"]}>
                     <div>

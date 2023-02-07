@@ -29,19 +29,19 @@ export default function NavbarGericht() {
                             <div>
                                 <Nav.Link className={styles["NavbarGericht-Link"]} href="#link">
                                     Home
-                                </Nav.Link>{" "}
+                                </Nav.Link>
                                 <Nav.Link className={styles["NavbarGericht-Link"]} href="#link">
                                     Pages
-                                </Nav.Link>{" "}
+                                </Nav.Link>
                                 <Nav.Link className={styles["NavbarGericht-Link"]} href="#link">
                                     Contact Us
-                                </Nav.Link>{" "}
+                                </Nav.Link>
                                 <Nav.Link className={styles["NavbarGericht-Link"]} href="#link">
-                                    Blog{" "}
-                                </Nav.Link>{" "}
+                                    Blog
+                                </Nav.Link>
                                 <Nav.Link className={styles["NavbarGericht-Link"]} href="#link">
-                                    Landing{" "}
-                                </Nav.Link>{" "}
+                                    Landing
+                                </Nav.Link>
                             </div>
                         ) : (
                             ""
@@ -71,25 +71,25 @@ export default function NavbarGericht() {
                         <div className={styles["NavbarGericht-ColumnCenter"]}>
                             <Nav.Link className={styles["NavbarGericht-LinkCenter"]} href="#link">
                                 Home
-                            </Nav.Link>{" "}
+                            </Nav.Link>
                             <Nav.Link className={styles["NavbarGericht-LinkCenter"]} href="#link">
                                 Pages
-                            </Nav.Link>{" "}
+                            </Nav.Link>
                             <Nav.Link className={styles["NavbarGericht-LinkCenter"]} href="#link">
                                 Contact Us
-                            </Nav.Link>{" "}
+                            </Nav.Link>
                             <Nav.Link className={styles["NavbarGericht-LinkCenter"]} href="#link">
-                                Blog{" "}
-                            </Nav.Link>{" "}
+                                Blog
+                            </Nav.Link>
                             <Nav.Link className={styles["NavbarGericht-LinkCenter"]} href="#link">
-                                Landing{" "}
-                            </Nav.Link>{" "}
+                                Landing
+                            </Nav.Link>
                         </div>
                     ) : (
                         ""
                     )}
                 </Navbar.Collapse>
-            </Navbar>{" "}
+            </Navbar>
         </div>
     );
 }

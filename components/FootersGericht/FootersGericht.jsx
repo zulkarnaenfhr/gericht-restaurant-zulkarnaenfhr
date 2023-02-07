@@ -16,7 +16,7 @@ const FootersGericht = () => {
                             <p className={styles["FooterGericht-Desc"]}>+1 212-344-1230</p>
                         </div>
                     </Col>
-                    <Col md={4} className={styles['FooterGericht-Column']}>
+                    <Col md={4} className={styles["FooterGericht-Column"]}>
                         <p className={styles["FooterGericht-Title1"]}>Gerícht</p>
                         <p className={styles["FooterGericht-Desc-Middle"]}>"The best way to find yourself is to lose yourself in the service of others.”</p>
                         <div
@@ -34,28 +34,28 @@ const FootersGericht = () => {
                             />
                         </div>
                     </Col>
-                    <Col md={4} className={styles['FooterGericht-Column']}>
+                    <Col md={4} className={styles["FooterGericht-Column"]}>
                         <p className={styles["FooterGericht-Title2"]}>Working Hours</p>
                         <div className={styles["FooterGericht-Desc-Container"]}>
                             <p className={styles["FooterGericht-Desc"]}>Monday-Friday:</p>
                             <p className={styles["FooterGericht-Desc"]}>08:00 am -12:00 am</p>
                             <p className={styles["FooterGericht-Desc"]}>Saturday-Sunday:</p>
                             <p className={styles["FooterGericht-Desc"]}>07:00am -11:00 pm</p>
-                        </div>{" "}
+                        </div>
                     </Col>
                 </Row>
                 <div className={styles["FooterGericht-FooterSigniature"]}>
-                    Design and Develop by{" "}
+                    Design and Develop by
                     <a className={styles["FooterGericht-LinkFahri"]} href="https://zulkarnaenfhr.github.io/">
                         SpaceCapt-Tech
-                    </a>{" "}
-                    @Endemic 2023 Colaborate with{" "}
+                    </a>
+                    @Endemic 2023 Colaborate with
                     <a
                         className={styles["FooterGericht-LinkIconiq"]}
                         href="https://iqonic.design/product/wordpress-themes/gericht-best-free-wordpress-theme-for-restaurant/?utm_source=referral&utm_medium=Figma-Community&utm_campaign=Geritch-WordPress-Figma-Community"
                     >
                         Iqonic.design
-                    </a>{" "}
+                    </a>
                 </div>
             </div>
         </div>

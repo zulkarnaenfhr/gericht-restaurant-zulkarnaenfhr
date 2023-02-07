@@ -43,7 +43,7 @@ const LandingPageSection5 = () => {
                                     >
                                         <p className={styles["LandingPage-Section5-Column-Little-Title"]}>Rising Star</p>
                                         <p className={styles["LandingPage-Section5-Column-Little-Desc"]}>Lorem ipsum dolor sit amet, consectetur.</p>
-                                    </div>{" "}
+                                    </div>
                                 </Col>
                             </Row>
                             <Row className={styles["LandingPage-Section5-Column-Little-Row"]}>
@@ -71,7 +71,7 @@ const LandingPageSection5 = () => {
                                     >
                                         <p className={styles["LandingPage-Section5-Column-Little-Title"]}>Outstanding Chef</p>
                                         <p className={styles["LandingPage-Section5-Column-Little-Desc"]}>Lorem ipsum dolor sit amet, consectetur.</p>
-                                    </div>{" "}
+                                    </div>
                                 </Col>
                             </Row>
                         </div>

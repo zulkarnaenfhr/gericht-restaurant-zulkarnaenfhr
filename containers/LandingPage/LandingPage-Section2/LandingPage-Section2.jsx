@@ -61,7 +61,7 @@ const LandingPageSection2 = () => {
                         <div className={styles["LandingPage-Section2-Right-Container"]}>
                             <button className={styles["LandingPage-Section2-Right-Button"]}>Know More</button>
                         </div>
-                    </div>{" "}
+                    </div>
                 </Col>
             </Row>
         </div>
