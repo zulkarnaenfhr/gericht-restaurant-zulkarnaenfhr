@@ -32,7 +32,7 @@ const LandingPageSection3 = () => {
                                 width: "100%",
                             }}
                         >
-                            <Col>
+                            <Col md={4}>
                                 <div className={styles["LandingPage-Section3-Column-Left"]}>
                                     <div
                                         style={{
@@ -115,16 +115,18 @@ const LandingPageSection3 = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col className={styles["LandingPage-Section3-Column-Middle"]}>
+                            <Col md={4}>
                                 <div className={styles["LandingPage-Section3-Column-Middle"]}>
-                                    <div md={4} className={styles["LandingPage-Section2-Knife-Container-Parents"]}>
-                                        <div md={4} className={styles["LandingPage-Section2-Knife-Container"]}>
-                                            <Image className={styles["LandingPage-Section2-Knife"]} src={require("../../../public/images/Section3-Vector.png")} />
+                                    <div className={styles["LandingPage-Section3-Column-Middle"]}>
+                                        <div md={4} className={styles["LandingPage-Section2-Knife-Container-Parents"]}>
+                                            <div md={4} className={styles["LandingPage-Section2-Knife-Container"]}>
+                                                <Image className={styles["LandingPage-Section2-Knife"]} src={require("../../../public/images/Section3-Vector.png")} />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </Col>
-                            <Col>
+                            <Col md={4}>
                                 <div className={styles["LandingPage-Section3-Column-Left"]}>
                                     <div
                                         style={{
