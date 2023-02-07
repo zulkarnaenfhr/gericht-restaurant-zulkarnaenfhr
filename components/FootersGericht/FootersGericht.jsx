@@ -18,7 +18,7 @@ const FootersGericht = () => {
                     </Col>
                     <Col md={4} className={styles["FooterGericht-Column"]}>
                         <p className={styles["FooterGericht-Title1"]}>Gerícht</p>
-                        <p className={styles["FooterGericht-Desc-Middle"]}>"The best way to find yourself is to lose yourself in the service of others.”</p>
+                        <p className={styles["FooterGericht-Desc-Middle"]}>&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
                         <div
                             style={{
                                 width: "100%",
