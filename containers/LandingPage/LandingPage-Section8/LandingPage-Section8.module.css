@@ -1,6 +1,7 @@
 #LandingPage-Section8 {
     width: 100%;
-    height: 442px;
+    height: fit-content;
+    min-height: 442px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +60,7 @@
     margin-bottom: unset;
 }
 
-.LandingPage-Section8-RowInput{
+.LandingPage-Section8-RowInput {
     margin-top: 64px;
 }
 
@@ -69,7 +70,7 @@
     border: 1px solid #f5efdb;
     background-color: transparent;
     padding: 18px;
-    font-family: "Cormorant Upright",sans-serif;
+    font-family: "Cormorant Upright", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -92,4 +93,51 @@
     font-size: 14px;
     letter-spacing: 0.04em;
     color: #0c0c0c;
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    #LandingPage-Section8 {
+        padding: 40px 40px;
+        min-height: unset;
+    }
+    .LandingPage-Section8-Text1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .LandingPage-Section8-Text2 {
+        font-size: calc(0.7 * 55px);
+        line-height: calc(0.7 * 55px);
+        margin-top: 10px;
+    }
+    .LandingPage-Section8-Text3 {
+        margin-top: 10px;
+    }
+    .LandingPage-Section8-RowInput {
+        margin-top: 20px;
+    }
+
+    .LandingPage-Section8-Input {
+        width: 70%;
+    }
+    .LandingPage-Section8-Button {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #LandingPage-Section8 {
+        padding: 40px 30px;
+    }
 }
