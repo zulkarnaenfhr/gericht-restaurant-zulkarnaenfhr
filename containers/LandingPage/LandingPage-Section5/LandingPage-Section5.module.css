@@ -19,6 +19,11 @@
     align-items: center;
 }
 
+.LandingPage-Section5-Column-Right {
+    display: flex;
+    align-items: center;
+}
+
 .LandingPage-Section5-Column-Left-Container {
     width: 100%;
     max-width: 634px;
@@ -62,7 +67,6 @@
 .LandingPage-Section5-Column-Little-Icon {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .LandingPage-Section5-Column-Little-Title {
@@ -98,4 +102,34 @@
 .LandingPage-Section5-Image {
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    .LandingPage-Section5-Column-Right {
+        display: none;
+    }
+    #LandingPage-Section5 {
+        padding: 50px 40px;
+    }
+    .LandingPage-Section5-Column-Little-Row {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #LandingPage-Section5 {
+        padding: 50px 30px;
+    }
 }

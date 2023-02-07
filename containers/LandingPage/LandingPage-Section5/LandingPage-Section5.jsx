@@ -76,7 +76,7 @@ const LandingPageSection5 = () => {
                             </Row>
                         </div>
                     </Col>
-                    <Col className={styles["LandingPage-Section5-Column"]} md={6} lg={5}>
+                    <Col className={styles["LandingPage-Section5-Column-Right"]} md={6} lg={5}>
                         <div className={styles["LandingPage-Section5-Image-Container"]}>
                             <Image className={styles["LandingPage-Section5-Image"]} src={require("../../../public/images/Section5-Right.png")} />
                         </div>
