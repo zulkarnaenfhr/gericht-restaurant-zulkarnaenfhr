@@ -19,7 +19,7 @@ const LandingPageSection7 = () => {
                 <Image className={styles["LandingPage-Section7-Background"]} src={require("../../../public/images/Section2-Background.png")} />
             </div>{" "}
             <Row className={styles["LandingPage-Section7-Container"]}>
-                <Col className={styles["LandingPage-Section7-Column"]}>
+                <Col md={6} className={styles["LandingPage-Section7-Column"]}>
                     <div>
                         <p className={styles["LandingPage-Section7-Text1"]}>Contact</p>
                         <Image
@@ -37,7 +37,7 @@ const LandingPageSection7 = () => {
                         <button className={styles["LandingPage-Section7-Button"]}>Visit Us</button>
                     </div>
                 </Col>
-                <Col className={styles["LandingPage-Section1-Column-Right"]}>
+                <Col md={6} className={styles["LandingPage-Section1-Column-Right"]}>
                     <div className={styles["LandingPage-Section1-Column-Right-Container"]}>
                         <div
                             style={{

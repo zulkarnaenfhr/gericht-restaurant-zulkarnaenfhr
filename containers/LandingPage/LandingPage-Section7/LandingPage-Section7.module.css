@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .LandingPage-Section7-Background-Container {
@@ -176,4 +177,59 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+    #LandingPage-Section7 {
+        min-height: unset;
+        padding: 0px 40px;
+    }
+    .LandingPage-Section7-Container {
+        height: fit-content;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .LandingPage-Section7-Text1 {
+        font-size: calc(0.9 * 20px);
+    }
+    .LandingPage-Section7-Text2 {
+        font-size: calc(0.7 * 55px);
+    }
+    .LandingPage-Section7-Text3 {
+        margin-top: 20px;
+    }
+    .LandingPage-Section7-Text4 {
+        margin-top: 20px;
+    }
+    .LandingPage-Section7-Text5 {
+        margin-top: 10px;
+    }
+    .LandingPage-Section7-Text6 {
+        margin-top: 10px;
+    }
+    .LandingPage-Section7-Button {
+        margin-top: 20px;
+    }
+    .LandingPage-Section1-Column-Right-Container{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #LandingPage-Section7 {
+        min-height: unset;
+        padding: 0px 30px;
+    }
 }
