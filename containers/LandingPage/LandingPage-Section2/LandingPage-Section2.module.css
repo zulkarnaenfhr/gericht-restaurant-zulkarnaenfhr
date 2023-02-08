@@ -103,6 +103,7 @@
 .LandingPage-Section2-Knife-Container {
     width: auto;
     height: 100%;
+    transform: scaleX(-1);
 }
 
 .LandingPage-Section2-Knife {
