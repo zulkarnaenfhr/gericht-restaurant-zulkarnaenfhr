@@ -7,8 +7,11 @@ const LandingPageSection8 = () => {
         <div id={styles["LandingPage-Section8"]}>
             <div className={styles["LandingPage-Section8-Container"]}>
                 <div className={styles["LandingPage-Section8-Container-Inside"]}>
-                    <p className={styles["LandingPage-Section8-Text1"]}>Newsletter</p>
+                    <p data-aos="zoom-in-up" className={styles["LandingPage-Section8-Text1"]}>
+                        Newsletter
+                    </p>
                     <div
+                        data-aos="zoom-in-up"
                         style={{
                             width: "100%",
                             display: "flex",
@@ -23,11 +26,17 @@ const LandingPageSection8 = () => {
                             src={require("../../../src/icon/yellow-spoon.svg")}
                         />
                     </div>
-                    <p className={styles["LandingPage-Section8-Text2"]}>Subscribe to Our Newsletter</p>
-                    <p className={styles["LandingPage-Section8-Text3"]}>And never miss latest Updates!</p>
+                    <p data-aos="zoom-in-up" className={styles["LandingPage-Section8-Text2"]}>
+                        Subscribe to Our Newsletter
+                    </p>
+                    <p data-aos="zoom-in-up" className={styles["LandingPage-Section8-Text3"]}>
+                        And never miss latest Updates!
+                    </p>
                     <div className={styles["LandingPage-Section8-RowInput"]}>
-                        <input className={styles["LandingPage-Section8-Input"]} placeholder={"Email Address"} type="text" />
-                        <button className={styles["LandingPage-Section8-Button"]}>Subscribe</button>
+                        <input data-aos="zoom-in-up" className={styles["LandingPage-Section8-Input"]} placeholder={"Email Address"} type="text" />
+                        <button data-aos="zoom-in-up" data-aos-delay="400" className={styles["LandingPage-Section8-Button"]}>
+                            Subscribe
+                        </button>
                     </div>
                 </div>
             </div>
