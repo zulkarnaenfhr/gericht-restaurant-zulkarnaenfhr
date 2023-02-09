@@ -1,16 +1,50 @@
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import React from "react";
 import { Row, Col } from "react-bootstrap";
+
 import styles from "./LandingPage-Section1.module.css";
 
+import gsap from "gsap/dist/gsap";
+import ScrollTrigger from "gsap/dist/ScrollTrigger";
+
 const LandingPageSection1 = () => {
+    let useEffectCall = 0;
+
+    const refText1 = useRef();
+    const refText2 = useRef();
+
+    useEffect(() => {
+        if (useEffectCall > 0) return;
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.to(refText1.current, 0, { x: -490, opacity: 0 });
+
+        setTimeout(() => {
+            setUpAnimations();
+        }, 1000);
+
+        useEffectCall++;
+    }, []);
+
+    const setUpAnimations = () => {
+        gsap.to(refText1.current, 1.5, { x: 0, opacity: 1 });
+    };
+
     return (
         <div id={styles["LandingPage-Section1"]}>
             <Row className={styles["LandingPage-Section1-Container"]}>
                 <Col md={6}>
                     <div className={styles["LandingPage-Section1-Column-Left"]}>
                         <div className={styles["LandingPage-Section1-Column-Left-Container"]}>
-                            <p className={styles["LandingPage-Section1-Text1"]}>Chase the new Flavour</p>
+                            <div
+                                style={{
+                                    overflow: "hidden",
+                                }}
+                            >
+                                <p ref={refText1} className={styles["LandingPage-Section1-Text1"]}>
+                                    Chase the new Flavour
+                                </p>
+                            </div>
 
                             <Image
                                 style={{
@@ -19,7 +53,9 @@ const LandingPageSection1 = () => {
                                 src={require("../../../src/icon/yellow-spoon.svg")}
                             />
 
-                            <p className={styles["LandingPage-Section1-Text2"]}>The key to Fine dining</p>
+                            <p ref={refText2} data-aos="fade-up" className={styles["LandingPage-Section1-Text2"]}>
+                                The key to Fine dining
+                            </p>
 
                             <p className={styles["LandingPage-Section1-Text3"]}>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
                             <button className={styles["LandingPage-Section1-Button"]}>Expolre Menu</button>

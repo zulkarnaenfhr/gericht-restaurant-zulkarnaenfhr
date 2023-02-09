@@ -34,12 +34,12 @@ const LandingPageSection2 = () => {
 
         gsap.to(refKnife.current, 0, { x: 200, rotate: 90, y: 400, opacity: 1 });
 
-        setupFirstPosition();
+        setUpAnimations();
 
         useEffectCall++;
     }, []);
 
-    const setupFirstPosition = () => {
+    const setUpAnimations = () => {
         gsap.to(refText1Left.current, {
             x: 0,
             opacity: 1,
@@ -116,8 +116,8 @@ const LandingPageSection2 = () => {
             ease: "power1.inOut",
             scrollTrigger: {
                 trigger: refKnife.current,
-                start: "center 110%",
-                end: "center 80%",
+                start: "center 150%",
+                end: "center 95%",
                 scrub: 1,
             },
         });
