@@ -27,6 +27,8 @@
     position: relative;
     z-index: 3;
     height: 80vh;
+    display: flex;
+    align-items: center;
 }
 
 .LandingPage-Section7-Column {
@@ -222,7 +224,7 @@
     .LandingPage-Section7-Button {
         margin-top: 20px;
     }
-    .LandingPage-Section1-Column-Right-Container{
+    .LandingPage-Section1-Column-Right-Container {
         margin-top: 40px;
     }
 }

@@ -12,28 +12,41 @@ const LandingPageSection1 = () => {
 
     const refText1 = useRef();
     const refText2 = useRef();
+    const refButton = useRef();
 
     useEffect(() => {
         if (useEffectCall > 0) return;
         gsap.registerPlugin(ScrollTrigger);
 
         gsap.to(refText1.current, 0, { x: -490, opacity: 0 });
+        gsap.to(refText2.current, 0, { x: -490, opacity: 0 });
+        gsap.to(refButton.current, 0, { x: -490, opacity: 0 });
 
         setTimeout(() => {
-            setUpAnimations();
+            gsap.to(refText1.current, 1.5, { x: 0, opacity: 1 });
+        }, 500);
+
+        setTimeout(() => {
+            gsap.to(refText2.current, 1.5, { x: 0, opacity: 1 });
+        }, 1000);
+
+        setTimeout(() => {
+            gsap.to(refButton.current, 2.5, { x: 0, opacity: 1 });
         }, 1000);
 
         useEffectCall++;
     }, []);
 
-    const setUpAnimations = () => {
-        gsap.to(refText1.current, 1.5, { x: 0, opacity: 1 });
-    };
-
     return (
         <div id={styles["LandingPage-Section1"]}>
             <Row className={styles["LandingPage-Section1-Container"]}>
-                <Col md={6}>
+                <Col
+                    md={6}
+                    style={{
+                        display: "flex",
+                        alignItems: "center",
+                    }}
+                >
                     <div className={styles["LandingPage-Section1-Column-Left"]}>
                         <div className={styles["LandingPage-Section1-Column-Left-Container"]}>
                             <div
@@ -46,24 +59,54 @@ const LandingPageSection1 = () => {
                                 </p>
                             </div>
 
-                            <Image
+                            <div
                                 style={{
-                                    marginTop: "8px",
+                                    overflow: "hidden",
                                 }}
-                                src={require("../../../src/icon/yellow-spoon.svg")}
-                            />
+                            >
+                                <Image
+                                    data-aos="zoom-in-right"
+                                    style={{
+                                        marginTop: "8px",
+                                    }}
+                                    src={require("../../../src/icon/yellow-spoon.svg")}
+                                />
+                            </div>
 
-                            <p ref={refText2} data-aos="fade-up" className={styles["LandingPage-Section1-Text2"]}>
-                                The key to Fine dining
-                            </p>
+                            <div
+                                style={{
+                                    overflow: "hidden",
+                                }}
+                            >
+                                <p data-aos="fade-up" className={styles["LandingPage-Section1-Text2"]}>
+                                    The key to Fine dining
+                                </p>
+                            </div>
 
-                            <p className={styles["LandingPage-Section1-Text3"]}>Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
-                            <button className={styles["LandingPage-Section1-Button"]}>Expolre Menu</button>
+                            <div
+                                style={{
+                                    overflow: "hidden",
+                                }}
+                            >
+                                <p ref={refText2} className={styles["LandingPage-Section1-Text3"]}>
+                                    Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus{" "}
+                                </p>
+                            </div>
+
+                            <div
+                                style={{
+                                    overflow: "hidden",
+                                }}
+                            >
+                                <button data-aos="zoom-in-right" data-aos-duration="1500" className={styles["LandingPage-Section1-Button"]}>
+                                    Expolre Menu
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </Col>
                 <Col md={6}>
-                    <div className={styles["LandingPage-Section1-Column-Right"]}>
+                    <div data-aos="zoom-in-right" className={styles["LandingPage-Section1-Column-Right"]}>
                         <div className={styles["LandingPage-Section1-Column-Right-Container"]}>
                             <div
                                 style={{
